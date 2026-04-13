@@ -152,7 +152,7 @@ nav button{
     border: none;
     border-radius: 5px;
     margin-top: 24px;
-    
+    cursor: pointer;
 }
 /* card 3  */
 
@@ -187,7 +187,7 @@ nav button{
     border: none;
     border-radius: 5px;
     margin-top: 24px;
-    
+    cursor: pointer;
 }
 /* card 4  */
 
@@ -222,6 +222,7 @@ nav button{
     border: none;
     border-radius: 5px;
     margin-top: 24px;
+    cursor: pointer;
     
 }
 
@@ -298,7 +299,7 @@ nav button{
     margin-bottom: 32px;
 }
 
-/* news card  */
+/*banner news card  */
 
 .news-card{
     display: flex;
@@ -353,16 +354,25 @@ nav button{
     margin-top: 32px;
 }
 
-.news-container{
-
+/* Donate section  */
+.donate-content{
+    margin: 80px 0;
 }
-
-
-
-
-
-
-
+.donate-head{
+    text-align: center;
+}
+.donate-head h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    color: #0E0E0E;
+}
+.donate-head p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 32px;
+}
 
 
 
