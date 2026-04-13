@@ -298,6 +298,72 @@ nav button{
     margin-bottom: 32px;
 }
 
+/* news card  */
+
+.news-card{
+    display: flex;
+    gap: 32px;
+    padding: 48px;
+    align-items: center;
+    margin-bottom: 24px;
+    border-radius: 10px;
+    background-color: #f7ebcfec;
+    border: 1px solid rgba(255, 0, 0, 0.171);
+    
+}
+
+.row-card-two{
+    flex-direction: row-reverse;
+}
+
+.news-card .satellite{
+    border-radius: 15px;
+    width: 402px;
+    height: 306px;
+}
+
+.news-content h2{
+   font-size: 32px;  
+   font-weight: 700; 
+   margin-bottom: 12px;
+}
+.news-content p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.news-content .aljazzera{
+    width: 134px;
+    height: 40px;
+    margin-bottom: 12px;
+}
+.date{
+    margin: 12px 0;
+}
+
+.btn{
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #006A50;
+    border-radius: 5px;
+    border: none;
+    padding: 13px 26px;
+    margin-top: 32px;
+}
+
+.news-container{
+
+}
+
+
+
+
+
+
+
+
 
 
 
